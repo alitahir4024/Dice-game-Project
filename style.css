@@ -1,0 +1,108 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    outline: none;
+    color: inherit;
+    font-family: monospace;
+    transition: all 0.5s;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('b1.jpg');
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 0.99fr;
+    grid-template-rows: 10vh 10vh 50vh;
+    align-content: space-around;
+    justify-content: space-evenly;
+    transition: all 0.5s;
+}
+
+section>header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section>header>h1{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.players>h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.players>h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.stage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.place{
+    height: 80%;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.board{
+    height: 70%;
+    width: 20vw;
+    display: grid;
+    grid-template-columns: 0.99fr;
+    grid-template-rows: 10vh 10vh;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.board>button{
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid white;
+}
