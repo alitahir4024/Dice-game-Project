@@ -21,3 +21,5 @@ Dice game project is an website template related to playing online games.
 ## Project Preview:
 
 (https://ali-tahir4024.github.io/Dice-game-Project/).
+
+# Please rename the file "index.php" to "index.html" to use or run it.
