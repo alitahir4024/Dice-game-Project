@@ -20,6 +20,6 @@ Dice game project is an website template related to playing online games.
 
 ## Project Preview:
 
-(https://dice-game-app-js.herokuapp.com/).
+[Dice Game](https://dice-game-app-js.herokuapp.com/).
 
 # Please rename the file "index.php" to "index.html" to use or run it.
